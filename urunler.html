@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cenik Elektrik marka PDF fiyat listeleri ve hızlı teklif sayfası.">
+  <title>Marka Fiyat Listeleri | Cenik Elektrik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dark-theme.css?v=20260923-v3" data-cenik-dark-theme>
+  <script>
+    try {
+      document.documentElement.dataset.theme =
+        localStorage.getItem('cenik-theme') === 'dark' ? 'dark' : 'light';
+    } catch (_) {
+      document.documentElement.dataset.theme = 'light';
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/img/logo.png" alt="Cenik Elektrik logosu"></a><button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav"><a href="index.html">Ana Sayfa</a><a href="hakkimizda.html">Hakkımızda</a><a href="kurucumuz.html">Kurucumuz</a><a class="active" href="urunler.html">Ürünler</a><a class="quote-link" href="teklif.html">Hızlı Teklif</a></nav></div></header>
+
+  <main class="ce-refresh ce-catalog-page">
+    <section class="catalog-intro">
+      <div class="container catalog-intro-inner">
+        <h1>Marka Fiyat Listeleri</h1>
+        <p>İhtiyacınız olan ürün grubunu seçin, ilgili markaların güncel katalog ve fiyat listelerine doğrudan ulaşın.</p>
+      </div>
+    </section>
+
+    <section class="section catalog-library-section">
+      <div class="container">
+        <div class="catalog-category-bar" aria-label="Ürün kategorileri">
+          <button class="catalog-category-chip is-active" type="button" data-catalog-category="Tümü" aria-pressed="true">Tümü</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Ampuller" aria-pressed="false">Ampuller</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Armatürler" aria-pressed="false">Armatürler</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Anahtar &amp; Priz" aria-pressed="false">Anahtar &amp; Priz</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Kablolar" aria-pressed="false">Kablolar</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Sigorta" aria-pressed="false">Sigorta</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Pano" aria-pressed="false">Pano</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="LED Şerit" aria-pressed="false">LED Şerit</button>
+          <button class="catalog-category-chip" type="button" data-catalog-category="Elektrik Aksesuarları" aria-pressed="false">Elektrik Aksesuarları</button>
+        </div>
+
+        <div class="catalog-toolbar">
+          <label class="price-search-box catalog-search-box" for="priceListSearch">
+            <span>Marka ara</span>
+            <input id="priceListSearch" type="search" placeholder="Örn. Philips, Schneider, Viko..." autocomplete="off">
+          </label>
+          <div class="price-list-summary catalog-count"><strong id="priceListCount">0</strong><span>sonuç</span></div>
+        </div>
+
+        <div id="catalogActiveFilter" class="catalog-active-filter" aria-live="polite">Tüm markalar gösteriliyor.</div>
+        <div id="priceListGrid" class="catalog-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section price-quote-banner catalog-quote-section">
+      <div class="container price-quote-banner-inner">
+        <div>
+          <h2>Ürün kodunuz hazır mı?</h2>
+          <p>Ürün kodunu, adedi ve varsa ek notunuzu iletin; stok ve güncel fiyat bilgisi için size dönüş yapalım.</p>
+        </div>
+        <a class="btn btn-primary" href="teklif.html">Hızlı Teklif Formuna Git</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid footer-grid-contact">
+      <div class="footer-brand-block">
+        <a class="brand brand-footer" href="index.html"><img class="brand-logo brand-logo-footer" src="assets/img/logo.png" alt="Cenik Elektrik logosu"></a>
+        <p>Elektrik malzemeleri ve aydınlatma çözümleri.</p>
+      </div>
+      <div class="footer-links-block">
+        <h3>Sayfalar</h3>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="kurucumuz.html">Kurucumuz</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="teklif.html">Hızlı Teklif</a>
+      </div>
+      <div class="footer-contact-block">
+        <h3>İletişim</h3>
+        <a class="footer-contact-link" href="tel:+905367475498"><strong>Telefon</strong><span>0536 747 5498</span></a>
+        <a class="footer-contact-link" href="tel:+902165655498"><strong>Sabit Hat</strong><span>0216 565 54 98</span></a>
+        <a class="footer-contact-link" href="mailto:info@cenikelektrik.com"><strong>E-posta</strong><span>info@cenikelektrik.com</span></a>
+        <a class="footer-contact-link" href="https://maps.app.goo.gl/WrhLXHoWNJ3X38SJA" target="_blank" rel="noopener noreferrer"><strong>Adres</strong><span>Taşdelen, Sultan Murat Cd. 41/A, 34788 Çekmeköy/İstanbul, Türkiye</span></a>
+        <div class="footer-socials">
+          <a class="social-link" href="https://www.instagram.com/cenikelektrikmalzemeleri/" target="_blank" rel="noopener noreferrer">Instagram · @cenikelektrikmalzemeleri ↗</a>
+          <a class="social-link whatsapp-social-link" href="https://wa.me/905466836148" target="_blank" rel="noopener noreferrer">WhatsApp · 0546 683 61 48 ↗</a>
+        </div>
+      </div>
+      <div class="footer-map-block">
+        <h3>Konum</h3>
+        <div class="map-frame">
+          <iframe title="Cenik Elektrik Google Haritalar konumu" src="https://www.google.com/maps?q=Taşdelen,+Sultan+Murat+Cd.+41%2FA,+34788+Çekmeköy%2Fİstanbul,+Türkiye&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="map-direct-link" href="https://maps.app.goo.gl/WrhLXHoWNJ3X38SJA" target="_blank" rel="noopener noreferrer" aria-label="Cenik Elektrik resmi Google Haritalar konumunu aç ve yol tarifi al"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">© <span data-current-year></span> Cenik Elektrik. Tüm hakları saklıdır.</div>
+  </footer>
+  <script src="assets/js/price-lists.js"></script>
+  <script src="assets/js/app.js?v=20260923-v3"></script>
+</body>
+</html>

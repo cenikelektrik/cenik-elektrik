@@ -1,0 +1,17 @@
+Görsel hazırlama: yerleşik image_gen aracı.
+
+GÜNDÜZ İSTEMİ
+Use case: precise-object-edit.
+Asset: a WIDE LANDSCAPE desktop website background, aspect ratio 16:9, as high native pixel resolution as supported, target 3840x2160.
+Edit the attached portrait scene into a wide panoramic view of the SAME electrical-industry boulevard. The output MUST be horizontal, NOT portrait and not a cropped zoom into the portrait. Recompose/outpaint the scene for a wide screen so lamps, road, electrical cabinets, trees and skyline look crisp at desktop size. Maintain the original realistic clean photographic/architectural rendering and scene identity.
+Composition: long road and skyline with vanishing point at about 65% from the left, horizon near 52% height. Keep the distinctive streetlights and cabinets along both sides. The left 40% can have subdued normal scene detail because website copy will be placed there with CSS, but DO NOT paint in a panel or overlay. Keep sky and wordmark in the right half fully inside the frame, wordmark centered near x=68%, y=32%, moderate width about 23% of total. Exact wordmark text CENİK, with Turkish dotted capital İ.
+Very crisp distant architecture and street fixtures, natural asphalt detail, clean edges. No motion blur, no fog, no blur, no soft-focus, no painted UI, no extra image cards, no new text. The result is one full-bleed image.
+DAY version: natural blue sky and clear warm daylight matching the source, same white CENİK lettering with enough local sky contrast to see it. Preserve daylight colors.
+
+GECE İSTEMİ
+Use case: precise-object-edit.
+Asset: a WIDE LANDSCAPE desktop website background, aspect ratio 16:9, as high native pixel resolution as supported, target 3840x2160.
+Edit the attached portrait scene into a wide panoramic view of the SAME electrical-industry boulevard. The output MUST be horizontal, NOT portrait and not a cropped zoom into the portrait. Recompose/outpaint the scene for a wide screen so lamps, road, electrical cabinets, trees and skyline look crisp at desktop size. Maintain the original realistic clean photographic/architectural rendering and scene identity.
+Composition: long road and skyline with vanishing point at about 65% from the left, horizon near 52% height. Keep the distinctive streetlights and cabinets along both sides. The left 40% can have subdued normal scene detail because website copy will be placed there with CSS, but DO NOT paint in a panel or overlay. Keep sky and wordmark in the right half fully inside the frame, wordmark centered near x=68%, y=32%, moderate width about 23% of total. Exact wordmark text CENİK, with Turkish dotted capital İ.
+Very crisp distant architecture and street fixtures, natural asphalt detail, clean edges. No motion blur, no fog, no blur, no soft-focus, no painted UI, no extra image cards, no new text. The result is one full-bleed image.
+NIGHT version: deep blue sky, warm amber streetlights, same golden moon and golden CENİK lettering, natural warm light reflections on the road. Match the source mood.

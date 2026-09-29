@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <link rel="icon" href="/assets/image/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cenik Elektrik kurumsal tanıtım, ürün kataloğu ve teklif talep sitesi.">
+  <title>Cenik Elektrik | Elektrik ve Aydınlatma Çözümleri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dark-theme.css?v=20260923-v3" data-cenik-dark-theme>
+  <script>
+    try {
+      document.documentElement.dataset.theme =
+        localStorage.getItem('cenik-theme') === 'dark' ? 'dark' : 'light';
+    } catch (_) {
+      document.documentElement.dataset.theme = 'light';
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Cenik Elektrik ana sayfa"><img class="brand-logo" src="assets/img/logo.png" alt="Cenik Elektrik logosu"></a>
+
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Ana menü">
+        <a class="active" href="index.html">Ana Sayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="kurucumuz.html">Kurucumuz</a>
+        <a href="urunler.html">Ürünler</a>
+        <button class="theme-toggle" type="button" aria-label="Karanlık temaya geç" title="Karanlık temaya geç" aria-pressed="false">
+          <span class="theme-toggle-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M20.2 15.6A8.7 8.7 0 0 1 8.4 3.8 8.9 8.9 0 1 0 20.2 15.6Z"></path>
+            </svg>
+          </span>
+          <span class="theme-toggle-label">Koyu Tema</span>
+        </button>
+        <a class="quote-link" href="teklif.html">Hızlı Teklif</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ce-refresh ce-home-page">
+    <section class="hero ce-home-hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Doğru ürün.<br><span>Güvenilir tedarik.</span></h1>
+          <p class="hero-text">Elektrik ve aydınlatma ihtiyaçlarınız için marka fiyat listelerini inceleyin, teklifinizi kolayca isteyin.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="urunler.html">Fiyat Listelerini İncele</a>
+            <a class="btn btn-secondary" href="hakkimizda.html">Bizi Tanıyın</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/905466836148?text=Merhaba%20Cenik%20Elektrik,%20fiyat%20ve%20stok%20bilgisi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp’tan Hızlı Teklif Al</a>
+          </div>
+          <div class="hero-points ce-service-types"><span>Perakende</span><span>Toptan</span><span>Proje tedariği</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark ce-company-section">
+      <div class="container split-grid">
+        <div>
+          <h2>İhtiyacınıza uygun ürün, doğrudan iletişim.</h2>
+        </div>
+        <div>
+          <p>Bireysel müşterilerden işletmelere ve proje ekiplerine kadar elektrik malzemeleri ve aydınlatma tedariğinde yanınızdayız.</p>
+          <a class="btn btn-light" href="hakkimizda.html">Şirketimizi Tanıyın</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section ce-process-section">
+      <div class="container">
+        <div class="section-heading process-heading">
+          <div>
+            <h2>Fiyat listesinden teklife.</h2>
+            <p class="section-lead">Kataloğu inceleyin, ürün kodunu belirleyin, talebinizi iletin.</p>
+          </div>
+        </div>
+
+        <div class="steps-grid process-grid">
+          <article class="step-card process-card"><span>01</span><h3>Listeyi inceleyin</h3><p>İlgili markanın PDF kataloğunu açın.</p></article>
+          <article class="step-card process-card"><span>02</span><h3>Ürün kodunu seçin</h3><p>Ürün kodlarını ve ihtiyacınız olan adetleri belirleyin.</p></article>
+          <article class="step-card process-card"><span>03</span><h3>Teklifinizi isteyin</h3><p>WhatsApp üzerinden fiyat ve stok bilgisi alın.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-banner ce-contact-section">
+      <div class="container contact-banner-inner">
+        <div>
+          <h2>Ürün kodunuz hazır mı?</h2>
+          <p>Ürün kodunu ve adedi iletin; güncel fiyat ve stok bilgisi için size dönüş yapalım.</p>
+        </div>
+        <a class="btn btn-primary" href="teklif.html">WhatsApp’tan Hızlı Teklif Al</a>
+      </div>
+    </section>
+
+    <section class="section partners-section" aria-labelledby="partners-title">
+      <div class="container">
+        <div class="section-heading partners-heading">
+          <div>
+            <h2 id="partners-title">Çözüm Ortaklarımız</h2>
+            <p class="section-lead">Çalıştığımız markaların güncel katalog ve fiyat listelerine Ürünler sayfasından ulaşabilirsiniz. İlgilendiğiniz markanın listesini açın, ürün kodunu belirleyin ve WhatsApp üzerinden hızlıca teklif isteyin.</p>
+          </div>
+        </div>
+      </div>
+      <div class="partners-marquee" aria-label="Çözüm ortakları logo şeridi">
+        <div class="partners-track">
+          <div class="partners-group">
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/philips-signify.pdf" target="_blank" rel="noopener noreferrer" aria-label="Philips / Signify fiyat listesini aç" title="Philips / Signify fiyat listesini aç"><img src="assets/img/partners/logo1.jpg" alt="Philips / Signify"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ledvance-osram-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Ledvance / OSRAM fiyat listesini aç" title="Ledvance / OSRAM fiyat listesini aç"><img src="assets/img/partners/logo2.jpg" alt="Ledvance / OSRAM"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ecolink-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="EcoLink fiyat listesini aç" title="EcoLink fiyat listesini aç"><img src="assets/img/partners/logo3.jpg" alt="EcoLink"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/alkan-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Alkan Aydınlatma fiyat listesini aç" title="Alkan Aydınlatma fiyat listesini aç"><img src="assets/img/partners/logo4.jpg" alt="Alkan Aydınlatma"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/prysmian.pdf" target="_blank" rel="noopener noreferrer" aria-label="Prysmian fiyat listesini aç" title="Prysmian fiyat listesini aç"><img src="assets/img/partners/logo5.jpg" alt="Prysmian"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/recber-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Reçber Kablo fiyat listesini aç" title="Reçber Kablo fiyat listesini aç"><img src="assets/img/partners/logo6.jpg" alt="Reçber Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/schneider-electric.pdf" target="_blank" rel="noopener noreferrer" aria-label="Schneider Electric fiyat listesini aç" title="Schneider Electric fiyat listesini aç"><img src="assets/img/partners/logo7.jpg" alt="Schneider Electric"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/chint.pdf" target="_blank" rel="noopener noreferrer" aria-label="CHINT fiyat listesini aç" title="CHINT fiyat listesini aç"><img src="assets/img/partners/logo8.jpg" alt="CHINT"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/entes-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ENTES fiyat listesini aç" title="ENTES fiyat listesini aç"><img src="assets/img/partners/logo9.jpg" alt="ENTES"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/siemens-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Siemens fiyat listesini aç" title="Siemens fiyat listesini aç"><img src="assets/img/partners/logo10.jpg" alt="Siemens"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/pelsan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Pelsan fiyat listesini aç" title="Pelsan fiyat listesini aç"><img src="assets/img/partners/logo11.jpg" alt="Pelsan"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/hes-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="HES Kablo fiyat listesini aç" title="HES Kablo fiyat listesini aç"><img src="assets/img/partners/logo12.jpg" alt="HES Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/legrand-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Legrand fiyat listesini aç" title="Legrand fiyat listesini aç"><img src="assets/img/partners/logo13.jpg" alt="Legrand"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 14 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo14.jpg" alt="Çözüm ortağı logo 14"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/panasonic-viko-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Viko by Panasonic fiyat listesini aç" title="Viko by Panasonic fiyat listesini aç"><img src="assets/img/partners/logo15.jpg" alt="Viko by Panasonic"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/audio.pdf" target="_blank" rel="noopener noreferrer" aria-label="Audio fiyat listesini aç" title="Audio fiyat listesini aç"><img src="assets/img/partners/logo16.jpg" alt="Audio"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ack-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ACK fiyat listesini aç" title="ACK fiyat listesini aç"><img src="assets/img/partners/logo17.jpg" alt="ACK"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/erse-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Erse Kablo fiyat listesini aç" title="Erse Kablo fiyat listesini aç"><img src="assets/img/partners/logo18.jpg" alt="Erse Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/oznur-kablo-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Öznur Kablo fiyat listesini aç" title="Öznur Kablo fiyat listesini aç"><img src="assets/img/partners/logo19.jpg" alt="Öznur Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/unal-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Ünal Kablo fiyat listesini aç" title="Ünal Kablo fiyat listesini aç"><img src="assets/img/partners/logo20.jpg" alt="Ünal Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/cetinkaya.pdf" target="_blank" rel="noopener noreferrer" aria-label="Çetinkaya Pano fiyat listesini aç" title="Çetinkaya Pano fiyat listesini aç"><img src="assets/img/partners/logo21.jpg" alt="Çetinkaya Pano"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/onka-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ONKA fiyat listesini aç" title="ONKA fiyat listesini aç"><img src="assets/img/partners/logo22.jpg" alt="ONKA"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/wago-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="WAGO fiyat listesini aç" title="WAGO fiyat listesini aç"><img src="assets/img/partners/logo23.jpg" alt="WAGO"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 24 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo24.jpg" alt="Çözüm ortağı logo 24"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/inoled-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Inoled fiyat listesini aç" title="Inoled fiyat listesini aç"><img src="assets/img/partners/logo25.jpg" alt="Inoled"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/mutlusan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Mutlusan Electric fiyat listesini aç" title="Mutlusan Electric fiyat listesini aç"><img src="assets/img/partners/logo26.jpg" alt="Mutlusan Electric"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 27 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo27.jpg" alt="Çözüm ortağı logo 27"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/sutem.pdf" target="_blank" rel="noopener noreferrer" aria-label="SUTEM fiyat listesini aç" title="SUTEM fiyat listesini aç"><img src="assets/img/partners/logo28.jpg" alt="SUTEM"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/tongun.pdf" target="_blank" rel="noopener noreferrer" aria-label="Tongün fiyat listesini aç" title="Tongün fiyat listesini aç"><img src="assets/img/partners/logo29.jpg" alt="Tongün"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 30 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo30.jpg" alt="Çözüm ortağı logo 30"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 31 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo31.jpg" alt="Çözüm ortağı logo 31"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 32 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo32.jpg" alt="Çözüm ortağı logo 32"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/bemis-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Bemis fiyat listesini aç" title="Bemis fiyat listesini aç"><img src="assets/img/partners/logo33.jpg" alt="Bemis"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 34 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo34.jpg" alt="Çözüm ortağı logo 34"></a>
+          </div>
+          <div class="partners-group" aria-hidden="true">
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/philips-signify.pdf" target="_blank" rel="noopener noreferrer" aria-label="Philips / Signify fiyat listesini aç" title="Philips / Signify fiyat listesini aç"><img src="assets/img/partners/logo1.jpg" alt="Philips / Signify"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ledvance-osram-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Ledvance / OSRAM fiyat listesini aç" title="Ledvance / OSRAM fiyat listesini aç"><img src="assets/img/partners/logo2.jpg" alt="Ledvance / OSRAM"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ecolink-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="EcoLink fiyat listesini aç" title="EcoLink fiyat listesini aç"><img src="assets/img/partners/logo3.jpg" alt="EcoLink"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/alkan-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Alkan Aydınlatma fiyat listesini aç" title="Alkan Aydınlatma fiyat listesini aç"><img src="assets/img/partners/logo4.jpg" alt="Alkan Aydınlatma"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/prysmian.pdf" target="_blank" rel="noopener noreferrer" aria-label="Prysmian fiyat listesini aç" title="Prysmian fiyat listesini aç"><img src="assets/img/partners/logo5.jpg" alt="Prysmian"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/recber-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Reçber Kablo fiyat listesini aç" title="Reçber Kablo fiyat listesini aç"><img src="assets/img/partners/logo6.jpg" alt="Reçber Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/schneider-electric.pdf" target="_blank" rel="noopener noreferrer" aria-label="Schneider Electric fiyat listesini aç" title="Schneider Electric fiyat listesini aç"><img src="assets/img/partners/logo7.jpg" alt="Schneider Electric"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/chint.pdf" target="_blank" rel="noopener noreferrer" aria-label="CHINT fiyat listesini aç" title="CHINT fiyat listesini aç"><img src="assets/img/partners/logo8.jpg" alt="CHINT"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/entes-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ENTES fiyat listesini aç" title="ENTES fiyat listesini aç"><img src="assets/img/partners/logo9.jpg" alt="ENTES"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/siemens-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Siemens fiyat listesini aç" title="Siemens fiyat listesini aç"><img src="assets/img/partners/logo10.jpg" alt="Siemens"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/pelsan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Pelsan fiyat listesini aç" title="Pelsan fiyat listesini aç"><img src="assets/img/partners/logo11.jpg" alt="Pelsan"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/hes-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="HES Kablo fiyat listesini aç" title="HES Kablo fiyat listesini aç"><img src="assets/img/partners/logo12.jpg" alt="HES Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/legrand-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Legrand fiyat listesini aç" title="Legrand fiyat listesini aç"><img src="assets/img/partners/logo13.jpg" alt="Legrand"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 14 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo14.jpg" alt="Çözüm ortağı logo 14"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/panasonic-viko-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Viko by Panasonic fiyat listesini aç" title="Viko by Panasonic fiyat listesini aç"><img src="assets/img/partners/logo15.jpg" alt="Viko by Panasonic"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/audio.pdf" target="_blank" rel="noopener noreferrer" aria-label="Audio fiyat listesini aç" title="Audio fiyat listesini aç"><img src="assets/img/partners/logo16.jpg" alt="Audio"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/ack-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ACK fiyat listesini aç" title="ACK fiyat listesini aç"><img src="assets/img/partners/logo17.jpg" alt="ACK"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/erse-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Erse Kablo fiyat listesini aç" title="Erse Kablo fiyat listesini aç"><img src="assets/img/partners/logo18.jpg" alt="Erse Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/oznur-kablo-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Öznur Kablo fiyat listesini aç" title="Öznur Kablo fiyat listesini aç"><img src="assets/img/partners/logo19.jpg" alt="Öznur Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/unal-kablo.pdf" target="_blank" rel="noopener noreferrer" aria-label="Ünal Kablo fiyat listesini aç" title="Ünal Kablo fiyat listesini aç"><img src="assets/img/partners/logo20.jpg" alt="Ünal Kablo"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/cetinkaya.pdf" target="_blank" rel="noopener noreferrer" aria-label="Çetinkaya Pano fiyat listesini aç" title="Çetinkaya Pano fiyat listesini aç"><img src="assets/img/partners/logo21.jpg" alt="Çetinkaya Pano"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/onka-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="ONKA fiyat listesini aç" title="ONKA fiyat listesini aç"><img src="assets/img/partners/logo22.jpg" alt="ONKA"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/wago-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="WAGO fiyat listesini aç" title="WAGO fiyat listesini aç"><img src="assets/img/partners/logo23.jpg" alt="WAGO"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 24 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo24.jpg" alt="Çözüm ortağı logo 24"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/inoled-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Inoled fiyat listesini aç" title="Inoled fiyat listesini aç"><img src="assets/img/partners/logo25.jpg" alt="Inoled"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/mutlusan.pdf" target="_blank" rel="noopener noreferrer" aria-label="Mutlusan Electric fiyat listesini aç" title="Mutlusan Electric fiyat listesini aç"><img src="assets/img/partners/logo26.jpg" alt="Mutlusan Electric"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 27 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo27.jpg" alt="Çözüm ortağı logo 27"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/sutem.pdf" target="_blank" rel="noopener noreferrer" aria-label="SUTEM fiyat listesini aç" title="SUTEM fiyat listesini aç"><img src="assets/img/partners/logo28.jpg" alt="SUTEM"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/tongun.pdf" target="_blank" rel="noopener noreferrer" aria-label="Tongün fiyat listesini aç" title="Tongün fiyat listesini aç"><img src="assets/img/partners/logo29.jpg" alt="Tongün"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 30 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo30.jpg" alt="Çözüm ortağı logo 30"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 31 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo31.jpg" alt="Çözüm ortağı logo 31"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 32 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo32.jpg" alt="Çözüm ortağı logo 32"></a>
+              <a class="partner-logo-slot" href="assets/fiyat-listeleri/bemis-2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Bemis fiyat listesini aç" title="Bemis fiyat listesini aç"><img src="assets/img/partners/logo33.jpg" alt="Bemis"></a>
+              <a class="partner-logo-slot" href="#" aria-label="Çözüm ortağı 34 - bağlantı daha sonra eklenecek"><img src="assets/img/partners/logo34.jpg" alt="Çözüm ortağı logo 34"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid footer-grid-contact">
+      <div class="footer-brand-block">
+        <a class="brand brand-footer" href="index.html"><img class="brand-logo brand-logo-footer" src="assets/img/logo.png" alt="Cenik Elektrik logosu"></a>
+        <p>Elektrik malzemeleri ve aydınlatma çözümleri.</p>
+      </div>
+      <div class="footer-links-block">
+        <h3>Sayfalar</h3>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="kurucumuz.html">Kurucumuz</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="teklif.html">Hızlı Teklif</a>
+      </div>
+      <div class="footer-contact-block">
+        <h3>İletişim</h3>
+        <a class="footer-contact-link" href="tel:+905367475498"><strong>Telefon</strong><span>0536 747 5498</span></a>
+        <a class="footer-contact-link" href="tel:+902165655498"><strong>Sabit Hat</strong><span>0216 565 54 98</span></a>
+        <a class="footer-contact-link" href="mailto:info@cenikelektrik.com"><strong>E-posta</strong><span>info@cenikelektrik.com</span></a>
+        <a class="footer-contact-link" href="https://maps.app.goo.gl/WrhLXHoWNJ3X38SJA" target="_blank" rel="noopener noreferrer"><strong>Adres</strong><span>Taşdelen, Sultan Murat Cd. 41/A, 34788 Çekmeköy/İstanbul, Türkiye</span></a>
+        <div class="footer-socials">
+          <a class="social-link" href="https://www.instagram.com/cenikelektrikmalzemeleri/" target="_blank" rel="noopener noreferrer">Instagram · @cenikelektrikmalzemeleri ↗</a>
+          <a class="social-link whatsapp-social-link" href="https://wa.me/905466836148" target="_blank" rel="noopener noreferrer">WhatsApp · 0546 683 61 48 ↗</a>
+        </div>
+      </div>
+      <div class="footer-map-block">
+        <h3>Konum</h3>
+        <div class="map-frame">
+          <iframe title="Cenik Elektrik Google Haritalar konumu" src="https://www.google.com/maps?q=Taşdelen,+Sultan+Murat+Cd.+41%2FA,+34788+Çekmeköy%2Fİstanbul,+Türkiye&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <a class="map-direct-link" href="https://maps.app.goo.gl/WrhLXHoWNJ3X38SJA" target="_blank" rel="noopener noreferrer" aria-label="Cenik Elektrik resmi Google Haritalar konumunu aç ve yol tarifi al"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">© <span data-current-year></span> Cenik Elektrik. Tüm hakları saklıdır.</div>
+  </footer>
+
+  <script src="assets/js/app.js?v=20260923-v3"></script>
+</body>
+</html>

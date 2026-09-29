@@ -1,0 +1,34 @@
+CENİK ELEKTRİK — ÜÇ DÜZELTME
+23 Eylül 2026
+
+KURULUM
+ZIP içindeki assets klasörünü ve 5 HTML dosyasını mevcut sitenin index.html dosyasının bulunduğu klasöre kopyalayın. Aynı adlı dosyaların değiştirilmesini onaylayın. assets klasörünü silmeyin; mevcut klasörle birleştirin.
+Tarayıcıda siteyi açıp Ctrl+F5 ile yenileyin.
+Bu paket yalnızca değişen dosyaları içerir ve tek başına tam site değildir.
+
+DÜZELTMELER
+1. Gündüz/gece, yatay/dikey dört arka planın CENİK yazısındaki kesik E tamamlandı.
+2. Kurucumuz sayfasında fotoğraf kutusunun yalnız koyu temadaki siyah zemini ve gölgesi kaldırıldı.
+3. Açık/koyu tema değişimine 500 ms solma geçişi eklendi. Diğer sayfalar da kayıtlı temayla açılır. Sisteminde hareket azaltma açık olan ziyaretçiler için animasyon atlanır.
+
+KONTROL
+JavaScript sözdizimi, tema davranışı için 7 yerel senaryo, HTML/CSS dosya yolları ve paket içeriği doğrulandı. Görseller doğrudan incelendi. Bu oturumda tarayıcının yerel dosya erişimi kısıtlı olduğu için canlı masaüstü/mobil görünüm kontrolü yapılamadı.
+Mevcut katalog PDF'leri bu pakete dahil değildir; kendi klasörünüzde kalmalıdır.
+
+GÖRSEL DÜZENLEME NOTU
+Dört arka plan yerleşik görsel düzenleme aracıyla düzenlendi.
+Ortak istem: CENİK yazısındaki yalnız ikinci harf E'nin üst, orta ve alt çizgilerini kesintisiz bir sol dikey çizgiyle birleştir; düz büyük E yap; gündüzde beyazı, gecede kehribar parıltısını koru; diğer harfleri, yazının konum/boyutunu ve sahnenin kadrajını koru.
+Masaüstü gece görselindeki son istem: E'de kalan çapraz kesiği tamamen kaldır, dikey gece görselindeki düz E'yi tipografi referansı al, yatay gece sahnesini koru.
+
+DEĞİŞEN DOSYALAR
+assets/css/dark-theme.css
+assets/img/site-background-dark-wide.webp
+assets/img/site-background-dark.webp
+assets/img/site-background-light-wide.webp
+assets/img/site-background-light.webp
+assets/js/app.js
+hakkimizda.html
+index.html
+kurucumuz.html
+teklif.html
+urunler.html

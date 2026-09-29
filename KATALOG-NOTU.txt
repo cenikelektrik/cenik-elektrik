@@ -1,0 +1,15 @@
+CENIK ELEKTRIK - KATALOG VE FIYAT LISTELERI
+
+Bu surumde 28 PDF katalog / fiyat listesi siteye baglanmistir.
+Her PDF'nin ilk sayfasi kapak gorseli olarak kullanilir.
+
+PDF klasoru:
+assets/fiyat-listeleri/
+
+Kapak gorselleri:
+assets/img/fiyat-listesi-kapaklari/
+
+Liste tanimlari:
+assets/js/price-lists.js
+
+Yeni katalog eklerken PDF'yi ilgili klasore, kapak gorselini kapak klasorune koyup price-lists.js icine yeni kayit ekleyebilirsiniz.
